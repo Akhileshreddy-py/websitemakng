@@ -1,0 +1,97 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100vw;
+   height:100vh;
+   display: flex;
+   justify-content: center;
+ align-items: center;
+   color:whitesmoke;
+   background-color: yellow;
+}
+.line
+{
+height:1px;
+    width:6vw;
+    /* position: relative; */
+    left:80px;
+    background-color: red;
+    border:2px solid red;
+    margin:2px;
+}
+.learnb
+{
+    color:white;
+    border: 2px solid red;
+    border-radius:20px;
+    padding:2px;
+    background-color: red;
+    position: relative;
+    left:7vw;
+    margin:10px;
+}
+.line:hover
+{
+    
+    background-color: whitesmoke;
+}
+
+.navbar
+{
+    position: absolute;
+    display:flex;
+   width:100vw;
+}
+.nav-content
+{     color:white;
+    margin:1vw 2vw; 
+}
+.nav-content:hover
+{width:10vw
+    font-weight: bolder;
+    color:yellow;
+   /* background-color:violet; */
+   font-size:22px
+}
+.second
+{
+    width:100vw;
+    /* border:2px solid green; */
+    display:flex;
+    justify-content: flex-end; 
+}
+.Home
+{
+    color:red;
+    font-weight: bold;
+}
+.contact
+{
+    border-radius:20px;
+    padding:2px;
+    border:2px solid yellow;
+background-color: rgb(223, 96, 22);
+}
+.events
+{
+    color:blue;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+}
+.card
+{
+    width:30%;
+margin:5vw;
+overflow: hidden;
+}
